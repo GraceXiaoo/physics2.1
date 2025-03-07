@@ -1,0 +1,19 @@
+Based on the given problem description and solution, please decide whether parameter A in the variable list can be computed in the next solution sentence (namely, its predecessors have all been calculated). Note that A might not be necessary to answer the question.
+
+Output requirements: Please only output data formats that can be parsed by Python's json.loads() function, similar to:
+[
+    {{
+        "variable":"xxx",
+        "judgement":1/0
+    }},
+    {{
+        "variable":"xxx",
+        "judgement":1/0
+    }}
+]
+Where the value of judgement is 1 or 0, 1 means parameter can be computed in the next solution sentence, and 0 means not . Be careful not to output other content.
+
+Problem description: {problem}
+Variable List: {var}
+
+Please perform the task according to the above requirements.

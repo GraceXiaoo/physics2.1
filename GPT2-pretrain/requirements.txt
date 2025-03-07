@@ -1,0 +1,12 @@
+transformers
+tqdm
+openai
+requests
+torch
+numpy
+tqdm
+scikit-learn
+keras
+tb-nightly
+future
+thulac

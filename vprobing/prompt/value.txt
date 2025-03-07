@@ -1,0 +1,18 @@
+Based on the given problem description and solution, please decide the value of parameter A (a number between 0-22, or 23 if known(A) = false) in the variable list 
+Output requirements: Please only output data formats that can be parsed by Python's json.loads() function, similar to:
+[
+    {{
+        "variable":"xxx",
+        "value":xx
+    }},
+    {{
+        "variable":"xxx",
+        "value":xx
+    }}
+]
+Where the value is an integer between 0 and 23. Be careful not to output other content.
+
+Problem description: {problem}
+Variable List: {var}
+
+Please perform the task according to the above requirements.

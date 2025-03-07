@@ -1,0 +1,18 @@
+Based on the given problem description and solution, please decide whether parameter in the variable list is known, that is, it is explained in the question or has been calculated.
+Output requirements: Please only output data formats that can be parsed by Python's json.loads() function, similar to:
+[
+    {{
+        "variable":"xxx",
+        "judgement":1/0
+    }},
+    {{
+        "variable":"xxx",
+        "judgement":1/0
+    }}
+]
+Where the value of judgement is 1 or 0, 1 means known, and 0 means unknown. Be careful not to output other content.
+
+Problem description: {problem}
+Variable List: {var}
+
+Please perform the task according to the above requirements.

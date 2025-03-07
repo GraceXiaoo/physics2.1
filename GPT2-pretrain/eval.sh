@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python evalsh.py --batch_size 1 --dataset_folder /cpfs01/user/xiaojin/xiaojin/physics/dataset/eval/eval_op21_all.json --model_path /cpfs01/user/xiaojin/xiaojin/physics/pretrain/models/xiaojin/model_output_45 --result_path result/1127_no_rope --max_len 1024

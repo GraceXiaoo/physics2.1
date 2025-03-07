@@ -1,0 +1,18 @@
+Given a problem description, determine whether the left-hand parameter A of each parameter pair in the variable list (recursively) depends on the right-hand parameter B. Parameter dependency means that the value of B must be known before A can be calculated.
+
+Output requirements: Please only output data formats that can be parsed by Python's json.loads() function, similar to:
+[
+    {{
+        "variable":["A","B"],
+        "judgement":1/0
+    }},
+    {{
+        "variable":["A","B"],
+        "judgement":1/0
+    }}
+]
+Where the value of judgement is 1 or 0, 1 means A depends on B, 0 means A does not depend on B. Be careful not to output other content.
+Problem description: {problem}
+Variable List: {var}
+
+Please perform the task according to the above requirements.
